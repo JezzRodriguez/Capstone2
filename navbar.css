@@ -20,7 +20,6 @@ nav{
 }
 
 .logo img{
-    height: 80px;
     width: 10rem;
 }
 
@@ -33,21 +32,23 @@ nav{
     justify-content: ;
     align-items: center;
     list-style: none;
-    font-weight: 600;
+    font-weight: 100;
     font-size: large;
+    
 }
 
 .nav-links li a{
     margin: 0 0.7vw;
     text-decoration: none;
-    -webkit-text-fill-color: navy;
+    -webkit-text-fill-color: white;
     transition: all ease-in-out 350ms;
     padding: 10px;
+    background-color: orange;
 }
 
 .nav-links li a:hover{
     color:#000;
-    background-color: orange;
+    background-color: navy;
     padding: 10px;
     border-radius: 50px;
 }
@@ -59,14 +60,15 @@ nav{
 .nav-links li a:hover::before{
     width: 80%;
 }
+ 
 
 
 
 .donate-button{
     padding: 0.6rem 0.8rem;
-    -webkit-text-fill-color: navy;
-    margin-left:auto;
-    margin-right: auto;
+    -webkit-text-fill-color: white;
+    margin-left:;
+    
     font-size:1rem;
     cursor:pointer;
     text-align: end;
@@ -75,7 +77,9 @@ nav{
     border-radius: 1em;
     transition: all ease-in-out 350ms;
 }
-
+.text {
+    -webkit-text-fill-color: white;
+}
 .mountainButton{
     padding: 0.6rem 0.8rem;
     -webkit-text-fill-color: navy;
